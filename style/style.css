@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-section{
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* opacity: 0.6; */
+}
+.logo{
+    background-image: url("https://gray-wctv-prod.cdn.arcpublishing.com/resizer/Od8g5lduEmDD7lJJCQJLRguL844=/800x533/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/gray/JYDNHDPW3ZDVRHIERWNZUG3OFA.jpg");
+    background-size: cover;
+    height: 80px;
+    width: 170px;
+    position: absolute;
+    left: 20px;
+}
+.right-nav{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.right-nav .language{
+    padding: 5px 15px;
+    font-size: 18px;
+   background-color: transparent;
+   color: white;
+   border-radius: 5px;
+   margin-right: 20px;
+   
+}
+#signin{
+    background-color: red;
+    color: white;
+}
+.center{
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+.center span{
+    font-size: 61px;
+    font-weight: 900;
+    
+    
+}
+.center p{
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+.email{
+    padding: 15px;
+    font-size: 20px;
+    padding-right: 90px;
+    background-color: rgb(36, 36, 36);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.button{
+    padding: 13px 55px;
+    font-size: 23px;
+    background-color: red;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.tv-section{
+    height: 90vh;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tv-img{
+    background-image: url("/image/img-1.png");
+    background-size: cover;
+    height: 400px;
+    width: 500px;
+}
+.text1 h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text1 p{
+    font-size: 25px;
+    line-height: 30px;
+}
+.img{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCPCYkoHMPkHmw26mi6BAc0z2uFKU2eT8F3w&usqp=CAU");
+    background-size: cover;
+    height: 200px;
+    width: 380px;
+    margin-left: 75px;
+    margin-top: 85px;
+}
+.tv-section2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.phone-image{
+background-image: url("/image/img-2.jpg");
+background-size: cover;
+}
+.kids-img{
+    background-image: url("/image/img-4.png");
+    background-size: cover;
+}
+.img1{
+    background-image: url("https://assets.telegraphindia.com/telegraph/2023/Aug/1692643159_watch.jpg");
+    background-size: cover;
+}
+.hr{
+    border: 5px solid rgb(43, 43, 43);
+}
+.q-section{
+    height: 130vh;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.q-seg h1{
+font-size: 60px;
+padding-top: 50px;
+margin-bottom: 15px;
+}
+.q-seg #ask{
+    padding: 25px;
+    width: 95%;
+    margin-top: 10px;
+    background-color: rgb(50, 50, 50);
+    color: #ffffff;
+    font-size: 23px;
+    text-align: left;
+    
+}
+.q-seg p{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main-footer{
+    height: 70vh;
+    background-color: black;
+    color: white;
+   
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 30px;
+
+}
+.footer-section ul li{
+   
+    margin-bottom: 25px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.footer-section ul li a{
+    color: rgb(227, 223, 223);
+}
+.ph{
+    margin-left: 95px;
+    padding-top: 80px;
+    font-size: 18px;
+}
+.m-lang{
+    padding: 10px 23px;
+   margin-left: 110px;
+   background-color: rgb(64, 63, 63);
+   color: white;
+   border: 1px solid #ffffff;
+   border-radius: 5px;
+}
